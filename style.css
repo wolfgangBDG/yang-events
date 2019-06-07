@@ -47,6 +47,24 @@ h4 {
   font-size: 1.5rem;
 }
 
+.button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 8px solid var(--blueLight);
+  color: var(--blueLight);
+  padding: 8px 16px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 8px solid var(--blueDarkTransparent);
+  color: var(--blueDarkTransparent);
+}
+
 .event {
   border-top: 19px solid var(--red);
   background-color: var(--whiteDark);
@@ -72,6 +90,7 @@ h4 {
 
 .gag, .past {
   display: none;
+  border-top: 19px solid var(--grayDark);
 }
 
 .calendar {
