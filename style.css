@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+/* https://scripts.sil.org/OFL_web */
+
+:root {
+    --black:  hsl(0, 0%, 0%);
+    --blueDark:  hsl(225, 72%, 28%);
+    --blueDarkTransparent:  hsla(225, 72%, 28%, 0.67);
+    --blueLight:  hsl(205, 70%, 58%);
+    --blueLightest:  hsla(213, 100%, 95%, 0.8);
+    --blueTransparent:  hsla(212, 100%, 35%, 0.9);
+    --blueTransparentLight:  hsla(213, 100%, 95%, 0.44);
+    --grayDarker:  hsl(0, 0%, 29%);
+    --grayDark:  hsl(0, 0%, 61%);
+    --grayLight:  hsl(0, 0%, 61%, 0.1);
+    --grayLighter:  hsla(0, 0%, 85%, 0.2);
+    --red:  hsl(352, 69%, 53%);
+    --redDark:  hsl(352, 69%, 39%);
+    --white:  hsl(0, 0%, 100%);
+    --grayGradient1: hsla(0,0%,53%,.7);
+    --grayGradient2: hsla(0,0%,77%,.4);
+    --grayLoading: #d9d9d9;
+    --grayMedium: #c3c1c1;
+    --whiteDark: #f5f5f5;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.0rem;
+  background-image: linear-gradient(var(--whiteDark) , var(--blueDark));
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+h1.title {
+  text-align: center;
+  color: var(--blueDark);
+  font-size: 3.0rem;
+}
+
+h1 {
+  font-size: 3.0rem;
+  line-height: 100%;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+.event {
+  border-top: 19px solid var(--red);
+  background-color: var(--whiteDark);
+  padding: 8px 42px 8px; 
+  margin: 10px;
+  line-height: 100%;
+  color: var(--blueDark);
+}
+
+.debate {
+  background-image: url("flag.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.month {
+  color: var(--white);
+  background-color: var(--blueTransparent);
+  text-align: center;
+  font-size: 3.0rem;
+  padding: 1px;
+}
+
+.calendar {
+  text-align: center;
+}
+
+img.platform {
+  max-height: 32px;
+  margin: 8px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: var(--blueDark);
+  padding: 10px;
+  color: var(--white);
+}
