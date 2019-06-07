@@ -23,7 +23,7 @@
     <div class="month">
         <h1>JUNE 2019</h1>
     </div>
-    
+
     <div class="event">
         <h1>The Rubin Report</h1>
         <img class="platform" alt="YouTube" src="platforms/youtube.png">
@@ -107,5 +107,16 @@
         <a rel="external" href="https://github.com/wolfgangBDG/yang-events">       <img alt="GitHub"                   src="github.png"/></a>
         <p>Site not associated with or endorsed by Andrew Yang, or any networks and platforms showed.</p>
     </div>
+    
+    <script>
+        function showPast() {
+            var x = document.getElementsByClassName("past");
+            if (x[0].style.display === "block") {
+                x[0].style.display = "none";
+            } else {
+                x[0].style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
