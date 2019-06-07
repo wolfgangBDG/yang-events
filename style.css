@@ -70,6 +70,11 @@ h4 {
   padding: 1px;
 }
 
+.gag {
+  display: none;
+  visibility: hidden;
+}
+
 .calendar {
   text-align: center;
 }
